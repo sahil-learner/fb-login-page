@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 40%;
+}
+
+body{
+    padding: 5% 5% 5% 5%;
+    background-color: rgba(213, 221, 232, 0.849);
+    font-family: sans-serif;
+}
+
+.left{
+    display: none;
+}
+
+input{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1.5%;
+    border-radius: 5px;
+    border: 1px solid rgb(205, 191, 191);
+    height: 30px;
+    
+}
+
+.input{
+    padding-top: 1%;
+    margin-bottom: 5px;
+}
+
+.login{
+    width: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 1.5%;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    background-color: #0078FF;
+    color: white;
+}
+
+.login-btn{
+    padding-top: 1%;
+}
+
+.forgot-pw{
+ text-align: center;
+ margin: 5%;
+ 
+}
+.forgot-pw a{
+    text-decoration: none;
+}
+
+.hr-or-line{
+    display: flex;
+    align-items: center;
+}
+
+.hr{
+    width: 50%;
+    height: 1px;
+    background-color:black ;
+}
+
+
+
+.create-acc-btn{
+
+    width: auto;
+    margin-top: 5%;
+    height: 40px;
+    background-color:rgb(11, 207, 47) ;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+    border-radius: 5px;
+    border: none;
+}
+.create-acc{
+    text-align: center;
+}
+
+footer{
+   margin: auto;
+    margin-top: 30%;
+   
+    
+}
+
+.footer-hyperlinks{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left-a{
+    text-align: center;
+    
+}
+.right-a{
+    text-align: center;
+}
+.footer-hyperlinks a{
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    text-decoration: none;
+   
+}
+
+
+.footer-nav ul{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.footer-nav ul li{
+    display:inline-block;
+    list-style: none;
+    padding: 4px;
+  
+}
+
+
+.meta-heading{
+    text-align: center;
+    margin-top: 4%;
+}
+
+@media screen and (min-width: 720px){
+    
+
+    header{
+        display: none;
+    }
+
+    main{
+       
+    }
+
+    .left{
+        display: block;
+        width:60%;
+        margin-top: 10%;
+        margin-left: 80px;
+    }
+    .hr{
+        display: none;
+    }
+    .or{
+        display: none;
+    }
+    
+
+    .left img{
+        width: 45%;
+    }
+
+    .left span{
+        font-size: 1.5rem;
+        display: block;
+        padding-left: 20px;
+        padding-right: 50px;
+    }
+
+    .right{ 
+        width:40%;
+        margin-top: 5%;
+        margin-left: 75px;
+        margin-right: 100px;
+        padding: 30px 30px 30px 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .flex-item{
+        display: flex;
+    }
+}
+
